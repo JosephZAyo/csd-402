@@ -13,6 +13,7 @@ class DomesticDivision extends Division {
     }
 
     @Override
+    // Display format
     public void display() {
         System.out.println("Domestic Division: " + divisionName);
         System.out.println("Account Number: " + accountNumber);

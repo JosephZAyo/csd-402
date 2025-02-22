@@ -13,7 +13,7 @@ class InternationalDivision extends Division {
         this.country = country;
         this.language = language;
     }
-
+    // Display format
     @Override
     public void display() {
         System.out.println("International Division: " + divisionName);
